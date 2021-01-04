@@ -16,3 +16,35 @@ h2{
     font-size: 30px;
     margin-bottom: 20px;
 }
+.menu{
+    font-family: Times New Roman;
+    position:absolute;
+    margin-top:0px;
+    top: 0px;
+    z-index: 10;
+    align-items: center;
+    padding-left: 350px;
+    padding-right: 50px;
+    margin-bottom:30px;
+    margin-top: 20px;
+    }
+.links{
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: Algerian;
+    font-size: 23px;
+}
+.links:hover{
+    background-color:cornflowerblue;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.links-centered a{
+    position: relative;
+    top: 0;
+    transform: none;
+}
+html{
+   scroll-behavior: smooth;
+}
